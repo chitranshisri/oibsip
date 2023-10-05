@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Unique Landing Page</title>
+    <link rel="stylesheet" href="stylee.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#about">About Us</a></li>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <section id="hero">
+        <h1>Welcome to Our Unique Website</h1>
+        <p>The first step towards success is through our door</p>
+        <a href="#contact" class="cta-button">Get Started</a>
+    </section>
+    <section id="about">
+        <h2>About Us</h2>
+        <p>A remarkable about page is genuine, approachable, and distinguished. Visitors should get a glimpse into what working with you might be like. You can include personal interests, stories, and photos that convey the unique story of your business.</p>
+    </section>
+    <section id="features">
+        <h2>Key Features</h2>
+        <ul>
+            <li>Approachable</li>
+            <li>unique </li>
+            <li>Corporate Body</li>
+        </ul>
+    </section>
+    <section id="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <label for="name">Name:</label>
+            <input type="text" id="name" name="name" required>
+            <label for="email">Email:</label>
+            <input type="email" id="email" name="email" required>
+            <textarea id="message" name="message" placeholder="Your message" required></textarea>
+            <button type="submit" class="cta-button">Send Message</button>
+        </form>
+    </section>
+    <footer>
+        <p>&copy; 2023 Chitranshi The Mind Builder</p>
+    </footer>
+</body>
+</html>
