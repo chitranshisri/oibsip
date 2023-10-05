@@ -1,0 +1,48 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="stylee1.css">
+    <title>My Unique Portfolio</title>
+</head>
+<body>
+    <header>
+        <h1>My Unique Portfolio</h1>
+        <nav>
+            <ul>
+                <li><a href="#about">About</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <section id="about">
+        <h2>About Me</h2>
+        <p>Welcome to my creative world! I'm passionate about web development and design.</p>
+    </section>
+
+    <section id="projects">
+        <h2>Projects</h2>
+        <div class="project">
+            <h3>Project 1: landing page</h3>
+            <p>A visually stunning website featuring interactive animations and elegant design.</p>
+        </div>
+        <div class="project">
+            <h3>Project 2: Portfolio Redesign</h3>
+            <p>I revamped my portfolio with unique layouts and eye-catching visuals.</p>
+        </div>
+    </section>
+
+    <section id="contact">
+        <h2>Contact</h2>
+        <p>Feel free to reach out at: <a href="mailto:srivastavakalpana933@gmail.com">srivastavakalpana933@gmail.com</a></p>
+    </section>
+
+    <footer>
+        <p>&copy; 2023 chitranshi srivastava | Designed with ❤</p>
+    </footer>
+</body>
+</html>
